@@ -36,7 +36,7 @@ export const Login = ({handleOnChange, handleOnSubmit, formSwitcher, email, pass
                             required
                            />
                        </Form.Group>
-                       <Button type="submit">Login</Button>
+                       <Button className="mt-3" type="submit">Login</Button>
                    </Form>
                    <hr />
                 </Col>

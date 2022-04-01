@@ -32,11 +32,12 @@ export const Entry = () => {
       e.preventDefault()
 
       if(!email || !password){
-        return alert('full up the form')
+        return alert('fill up the form')
       }
 
       // TODO call api to submit the form
       console.log(email, password)
+      console.log(e)
     }
 
     const formSwitcher = formType => {
@@ -51,6 +52,7 @@ export const Entry = () => {
       }
       // TODO call api to submit the form
       console.log(email)
+      console.log(e)
     }
 
   return (

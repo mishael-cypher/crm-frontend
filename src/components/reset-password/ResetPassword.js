@@ -25,7 +25,7 @@ export const ResetPassword = ({handleOnChange, handleOnResetSubmit, formSwitcher
                             required
                            />
                        </Form.Group>
-                       <Button type="submit">Reset Pasword</Button>
+                       <Button className="mt-3" type="submit">Reset Pasword</Button>
                    </Form>
                    <hr />
                 </Col>
