@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { BreadcrumbComp } from "../../components/breadcrumb.js/Breadcrumb";
+import { BreadcrumbComp } from "../../components/breadcrumb/Breadcrumb";
 import { TicketTable } from "../../components/ticket-table/Table";
 
 export const Dashboard = () => {
@@ -28,7 +28,7 @@ export const Dashboard = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="text-center mt-5 mb-2">
+        <Col className="mt-5 mb-2">
           Recently Added tickets
         </Col>
       </Row>
